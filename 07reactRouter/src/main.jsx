@@ -45,6 +45,7 @@ const router = createBrowserRouter(
       <Route path='user/:userid' element={<User/>}/>  {/** here we learn somethong new. I learn about us e params hook */}
 
       {/* yaha pr hm loader k andar fetch wala functio daal te hai */}
+      {/* yaha githubloader info us functiion ka naam h jaha pr hmne api fetch kri h , wo ye hme laoder m dal dega or jaise hi hm usloaderdata hook ko use krnege hamare paas info aa jaaegi */}
       <Route loader={githubInfoloader}path='github' element={<Github/>}/>  {/** here we learn somethong new */} 
 
 

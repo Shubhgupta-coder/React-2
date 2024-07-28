@@ -14,6 +14,7 @@ function InputBox({
    const amountInputId = useId()
 
     return (
+        // yaha pr ${className} kyuki yaha pr hmne function m alg className as an input bhi lia h kya pata user apni alg se kuch imput ya css dena chata ho
         <div className={`bg-white p-3 rounded-lg text-sm flex ${className}`}>
             <div className="w-1/2">
                 <label htmlFor={amountInputId}  className="text-black/40 mb-2 inline-block">
